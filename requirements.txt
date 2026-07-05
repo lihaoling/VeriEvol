@@ -15,6 +15,6 @@ word2number
 # Tokenization / model utils (verifier token accounting)
 transformers
 
-# Note: the SFT (LLaMA-Factory) and RL (verl) frameworks are vendored as git
-# submodules under vendor/ and have their own heavier dependency sets. Install
-# them separately per docs/sft_guide.md and docs/rl_guide.md.
+# Note: the SFT (LLaMA-Factory) and RL (verl) frameworks live under third_party/
+# and have their own heavier dependency sets. Install them separately per their
+# respective READMEs.
