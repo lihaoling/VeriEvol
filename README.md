@@ -1,5 +1,13 @@
 # VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct
 
+[![Paper](https://img.shields.io/badge/arXiv-2606.23543-b31b1b.svg)](https://arxiv.org/abs/2606.23543)
+[![SFT Data](https://img.shields.io/badge/🤗%20Dataset-VeriEvol--SFT-yellow.svg)](https://huggingface.co/datasets/Ringo1110/VeriEvol-SFT)
+[![RL Data](https://img.shields.io/badge/🤗%20Dataset-VeriEvol--RL-yellow.svg)](https://huggingface.co/datasets/Ringo1110/VeriEvol-RL)
+
+- **Paper:** https://arxiv.org/abs/2606.23543
+- **SFT dataset:** https://huggingface.co/datasets/Ringo1110/VeriEvol-SFT
+- **RL dataset:** https://huggingface.co/datasets/Ringo1110/VeriEvol-RL
+
 Official code release for **VeriEvol**. VeriEvol treats data scaling for visual
 mathematical reasoning as a *verifiable data-construction* problem and decouples
 two axes before any policy update:
@@ -99,8 +107,11 @@ credentials or endpoints are stored in this repo**. The evolution scripts take
 
 ## Notes on data & credentials
 
-- **No datasets are bundled.** All scripts take JSONL in/out; point them at your
-  own image–question data.
+- **No datasets are bundled in this repo.** The released datasets are hosted on
+  Hugging Face — [VeriEvol-SFT](https://huggingface.co/datasets/Ringo1110/VeriEvol-SFT)
+  and [VeriEvol-RL](https://huggingface.co/datasets/Ringo1110/VeriEvol-RL). The
+  scripts here take JSONL in/out, so you can also point them at your own
+  image–question data.
 - **No API keys or endpoints are stored.** All model access uses the standard
   OpenAI-compatible interface and reads credentials/endpoints from CLI flags or
   environment variables.
@@ -109,8 +120,9 @@ credentials or endpoints are stored in this repo**. The evolution scripts take
 
 ```bibtex
 @article{li2026verievol,
-  title  = {VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct},
-  author = {Li, Haoling and Zheng, Kai and Wu, Jie and Xu, Can and Sun, Qingfeng and Hu, Han and Yang, Yujiu},
-  year   = {2026}
+  title   = {VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct},
+  author  = {Li, Haoling and Zheng, Kai and Wu, Jie and Xu, Can and Sun, Qingfeng and Hu, Han and Yang, Yujiu},
+  journal = {arXiv preprint arXiv:2606.23543},
+  year    = {2026}
 }
 ```
