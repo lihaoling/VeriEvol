@@ -42,7 +42,3 @@ runs/
 # OS
 .DS_Store
 Thumbs.db
-
-# Third-party external repos (clone separately)
-third_party/
-vendor/
