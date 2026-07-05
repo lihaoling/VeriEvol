@@ -1,0 +1,20 @@
+# Core
+openai>=1.0.0
+tqdm
+loguru
+pillow
+numpy
+pyyaml
+
+# Data / math verification (evolution + SFT data filtering)
+datasets
+sympy
+latex2sympy2
+word2number
+
+# Tokenization / model utils (verifier token accounting)
+transformers
+
+# Note: the SFT (LLaMA-Factory) and RL (verl) frameworks are vendored as git
+# submodules under vendor/ and have their own heavier dependency sets. Install
+# them separately per docs/sft_guide.md and docs/rl_guide.md.

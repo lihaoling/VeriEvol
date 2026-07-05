@@ -1,0 +1,48 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Data & model artifacts (never commit large binaries / datasets)
+*.parquet
+*.arrow
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+data/
+datasets/
+saves/
+outputs/
+checkpoints/
+ckpt/
+
+# Logs
+logs/
+*.log
+wandb/
+tensorboard_log/
+runs/
+
+# Local env / secrets (never commit)
+.env
+.env.local
+*.key
+*credentials*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Third-party external repos (clone separately)
+third_party/
+vendor/
